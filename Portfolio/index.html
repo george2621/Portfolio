@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+    <title>My Portfolio</title>
+</head>
+
+<body>
+
+    <!-- Header with Nav Bar -->
+
+    <nav id="main-nav">
+        <img id="logo" src="https://docs.google.com/uc?id=1lo_-Myfz4dmSEyz023keEmQBn6qn5HTq" alt="">
+        <ul>
+            <li><a href="#" id="home" class="current" onclick="ho()">Home</a></li>
+            <li><a href="#about-me" id="about" onclick="ab()">About Me</a></li>
+            <li><a href="#about-b" id="skills" onclick="sk()">Skills</a></li>
+            <li><a href="#about-d" id="work" onclick="wo()">Work</a></li>
+            <li><a href="#about-e" id="contact" onclick="co()">Contact</a></li>
+        </ul>
+    </nav>
+    <header id="header-home">
+        <div class="header-contant">
+            <h1>I Am George The Web Developer</h1>
+            <p class="lead">I specialize in Web Development , Frontend and Backend</p>
+            <a href="#about-d" class="btn-light" onclick="wo()">View My Work</a>
+        </div>
+
+    </header>
+
+
+    <!-- First section that take about me  -->
+
+    <section id="about-a">
+        <div class="container">
+            <h2 id="about-me" class="section-title">About Me</h2>
+            <div class="bottom-line"></div>
+            <p class="lead">Let me tell you a littel about my self and what i do ...</p>
+            <div class="about-info">
+                <img src="https://docs.google.com/uc?id=16eicPbHtruEKw5xH88EdJXdeWz1HYGmK" alt="" class="bio-image">
+                <div class="bio">
+                    <p>I am excited to be applying for your program, which I find a great opportunity for me to
+                        start a
+                        career in web development especially with all the significant skills that I can learn
+                        through
+                        this
+                        journey.
+                        I graduated with a Bachelor's degree in Informatics Engineering from Al-Baath University
+                        last
+                        year, and through my whole study web development has always been my passion. Because of
+                        some courses I took at the university, I got to know the basics of web development like HTML
+                        and CSS and a little javascript. Unfortunately, I couldn't keep up with practical or working
+                        experience after my graduation due to many reasons, almost all of them related to the Syrian
+                        crisis and the poor quality of life in Syria and that's why I had to leave my country about
+                        5
+                        months ago.</p>
+                </div>
+            </div>
+
+            <h2 class="section-title">My Self Introduction Video</h2>
+            <div class="bottom-line"></div>
+            <div class="video">
+                <iframe width="70%" height="500" class ="video" src="https://www.youtube.com/embed/TQBi8IgdDvI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Technical Skills -->
+
+    <section id="about-b" onmouseover="progress()">
+        <div class="container padd">
+            <h2 class="section-title" style="color: white;">Technical Skills</h2>
+            <div class="bottom-line"></div>
+
+            <h4 class="subject">HTML :</h4>
+            <div class="outer-progress">
+                <div class="progress">
+                    <div id="inner-progress1"></div>
+                </div>
+                <h4 id="persent1">90%</h4>
+            </div>
+
+            <h4 class="subject">CSS :</h4>
+            <div class="outer-progress">
+                <div class="progress">
+                    <div id="inner-progress2"></div>
+                </div>
+                <h4 id="persent2">85%</h4>
+            </div>
+
+            <h4 class="subject">Javascript :</h4>
+            <div class="outer-progress">
+                <div class="progress">
+                    <div id="inner-progress3"></div>
+                </div>
+                <h4 id="persent3">65%</h4>
+            </div>
+
+
+            <h4 class="subject">Bootstrap :</h4>
+            <div class="outer-progress">
+                <div class="progress">
+                    <div id="inner-progress4"></div>
+                </div>
+                <h4 id="persent4">80%</h4>
+            </div>
+
+            <h4 class="subject">Java :</h4>
+            <div class="outer-progress">
+                <div class="progress">
+                    <div id="inner-progress5"></div>
+                </div>
+                <h4 id="persent5">70%</h4>
+            </div>
+
+
+            <h4 class="subject">Microsoft office :</h4>
+            <div class="outer-progress">
+                <div class="progress">
+                    <div id="inner-progress6"></div>
+                </div>
+                <h4 id="persent6">95%</h4>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Icons Bar -->
+
+    <section id="about-c">
+        <div class="container">
+            <div class="about-logos">
+                <img class="icon" src="https://docs.google.com/uc?id=1kOI1qOhRkbgGYBP91lGSSG3mljyUpint" alt="">
+                <img class="icon" src="https://docs.google.com/uc?id=1iftaPj6H7nUttY2Af6UjTk5qscBUyoSt" alt="">
+                <img class="icon" src="https://docs.google.com/uc?id=1nP35luwSBFN2usBYxLQ7flrh8vH-MpKy" alt="">
+                <img class="icon" src="https://docs.google.com/uc?id=1xj3jZRf77xvlwr2Wuus_eMWfhhooyVhr" alt="">
+                <img class="icon" src="https://docs.google.com/uc?id=125WDpEY_7owqomD_VcRhi1OYVytJo-0d" alt="">
+                <img class="icon" src="https://docs.google.com/uc?id=1miBHZntmVpdgScEGSfAiWw1IIFfqbe7l" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- My Works -->
+
+
+    <section id="about-d">
+        <div class="container">
+            <h2 style="text-align: center;">My Work</h2>
+            <div class="bottom-line"></div>
+            <div class="lead">It is just example from internet</div>
+            <div class="items">
+                <div class="item">
+                    <div class="item-image">
+                        <img src="https://docs.google.com/uc?id=1Tgo57ZmVLFWTSCn6JAnwHuO9U5VcLqI8" alt="">
+                    </div>
+                    <div class="item-text">
+                        <p class="item-text-category">Design</p>
+                        <h2 class="item-text-title">Great Gradients</h2>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-image">
+                        <img src="https://docs.google.com/uc?id=12644TAQkbxFIAG4G3u6Y0X7y6JZCUWyl" alt="">
+                    </div>
+                    <div class="item-text">
+                        <div class="item-text-wrap">
+                            <p class="item-text-category">UI/UX</p>
+                            <h2 class="item-text-title">World Experience</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-image">
+                        <img src="https://docs.google.com/uc?id=13WWrN13tiA2SIJ6Sve5mTTvkWtxR4zRD" alt="">
+                    </div>
+                    <div class="item-text">
+                        <div class="item-text-wrap">
+                            <p class="item-text-category">Photography & Design</p>
+                            <h2 class="item-text-title">Natural</h2>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="item-image">
+                        <img src="https://docs.google.com/uc?id=1hBfkxg3JF0oOxkmpeGlHakS83bDojjCo" alt="">
+                    </div>
+                    <div class="item-text">
+                        <div class="item-text-wrap">
+                            <p class="item-text-category">Photography</p>
+                            <h2 class="item-text-title">Dock</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-image">
+                        <img src="https://docs.google.com/uc?id=1knFjRpu3ainaMBSl9rg7zVW_6BpyLzqP" alt="">
+                    </div>
+                    <div class="item-text">
+                        <div class="item-text-wrap">
+                            <p class="item-text-category">Web Application</p>
+                            <h2 class="item-text-title">Restaurant App</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="item-image">
+                        <img src="https://docs.google.com/uc?id=1Sv3ilqlAAzJhh0EtP3TE8ln2jwVxuXCv" alt="">
+                    </div>
+                    <div class="item-text">
+                        <div class="item-text-wrap">
+                            <p class="item-text-category">Social Network Concept</p>
+                            <h2 class="item-text-title">FriendFeed </h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact With me -->
+
+    <section id="about-e">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="bottom-line"></div>
+            <p class="lead">Here is how you can reach me</p>
+            <form>
+                <div class="text-field">
+                    <input type="text" class="text-input name-input" placeholder="Your Name">
+                    <input type="text" class="text-input subject-input" placeholder="Subject">
+                    <input type="email" class="text-input email-input" placeholder="Your Email">
+                    <input type="text" class="text-input phone-input" placeholder="Your Phone Number">
+                    <textarea class="text-input message-input" placeholder="Message"></textarea>
+
+                </div>
+                <button type="submit" class="btn-dark">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- My Information  -->
+
+    <section id="about-f">
+        <div class="container">
+            <div class="contact-info">
+                <div class="my-info">
+                    <i class="fas fa-envelope  fa-2x ic"></i>
+                    <h3>Email</h3>
+                    <p>george95.2621@gmail.com</p>
+                </div>
+                <div class="my-info">
+                    <i class="fas fa-phone fa-2x ic"></i>
+                    <h3>Phone Number</h3>
+                    <p>+31-687879769</p>
+                </div>
+                <div class="my-info">
+                    <i class="fas fa-address-card fa-2x ic"></i>
+                    <h3>Address</h3>
+                    <p>HTL Hoogeveen</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer id="main-footer">
+        <div class="footer-content container">
+            <p>Copyright &copy; 2021. All Rights Reserved</p>
+            <div class="social">
+                <a href="https://www.facebook.com/george.roumieh"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/george_roumieh/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/george-roumieh-6606901bb/"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="javascript.js"></script>
+</body>
+
+</html>
